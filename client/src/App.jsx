@@ -8,7 +8,7 @@ function App() {
   const [add , setAdd] = useState({name:"" , age:"",city :""});
   const [model , setModel] = useState(false);
   const getAlluser = async () => {
-    await axios.get("http://localhost:8000/users").then((res)=>{
+    await axios.get("https://crud-react-rqet.onrender.com/users").then((res)=>{
       setUser(res.data);
       
       setSearch(res.data);
