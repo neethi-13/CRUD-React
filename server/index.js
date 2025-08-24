@@ -9,7 +9,7 @@ const port = 8000;
 //display All users
 
 app.use(cors({
-    origin: "https://crud-react-rqet.onrender.com/",
+    origin: "http://localhost:5173",
     methods :["GET","POST","PATCH","DELETE"],
 }));
 app.get("/users", (req,res)=>{
