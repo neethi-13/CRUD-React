@@ -43,7 +43,7 @@ app.patch("/users/:id" , (req,res)=>{
     const {name,age , city} = req.body;
     //console.log("req: ",req.body);
    
-    
+     
     let index = users.findIndex((us)=>us.id == id);
     users.splice(index , 1,{...req.body});
 
