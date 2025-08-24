@@ -10,7 +10,7 @@ const port = 8000;
 
 app.use(cors({
     origin:[ "http://localhost:5173",
-        "https://crud-react-ecru.vercel.app"
+        "https://neethi-crud.vercel.app/"
     ],
     methods :["GET","POST","PATCH","DELETE"],
 }));
